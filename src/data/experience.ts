@@ -9,7 +9,7 @@ export const experiences: Experience[] =
     company: "Sponsor for Educational Opportunity Program",
     logo: imgRoot + "seo_logo.png",
     position: "Tech Developer",
-    period: "June 2025 - August 2025",
+    period: "June - August 2025",
     location: "New York - Online",
     description: "Technical and interpersonal skills, training, and mentoring to build a strong foundation for a career in software development.",
     details: {
@@ -31,7 +31,7 @@ export const experiences: Experience[] =
     company: "MFS Investment Management",
     logo: imgRoot + "mfs_logo.png",
     position: "Full-Stack Software Engineer",
-    period: "January 2025 - Present",
+    period: "January - July 2025",
     location: "Boston, MA",
     description: "Building internal tools and full-stack applications to support global compliance, reporting, and operational workflows at scale.",
     details: {
@@ -78,7 +78,7 @@ export const experiences: Experience[] =
     company: "Lastgateway Enterprise",
     logo: imgRoot + "lastgateway_logo.png",
     position: "Founder",
-    period: "January 2015 - Present",
+    period: "January 2019 - January 2025",
     location: "Howell, NJ",
     description: "Founded a Platform/Software as a Service business providing computing resources to organizations within the community.",
     details: {
@@ -103,7 +103,7 @@ export const experiences: Experience[] =
     company: "AWS Skills Center",
     logo: imgRoot + "aws_logo.jpg",
     position: "AWS Academy Student",
-    period: "May 2024 - June 2024",
+    period: "May - June 2024",
     location: "Seattle, WA",
     description: "Learned foundational cloud computing concepts and gained hands-on experience with AWS tools and services.",
     details: {
@@ -131,7 +131,7 @@ export const experiences: Experience[] =
     company: "Polygence",
     logo: imgRoot + "polygence_logo.png",
     position: "AI Research Assistant",
-    period: "April 2021 - August 2021",
+    period: "April - August 2021",
     location: "Remote",
     description: "Researched suggestion-based advertisement alongside a Stanford University Masters Student to determine an effective model for suggesting new music.",
     details: {
