@@ -102,7 +102,7 @@ export const experiences: Experience[] =
     id: 4,
     company: "AWS Skills Center",
     logo: imgRoot + "aws_logo.jpg",
-    position: "AWS Academy Student",
+    position: "AWS Academy Trainee",
     period: "May - June 2024",
     location: "Seattle, WA",
     description: "Learned foundational cloud computing concepts and gained hands-on experience with AWS tools and services.",
