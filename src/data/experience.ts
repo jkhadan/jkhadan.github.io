@@ -20,7 +20,7 @@ export const experiences: Experience[] =
         "Gaining software development skills by working in SCRUM-like teams to design, test, and implement full-stack applications",
 
       ],
-      technologies: ["Python", "Bash", "Git", "GitHub", "RESTful APIs", "SQL", "HTML", "CSS", "JavaScript", "Object-Relational Mappers", "SQLAlchemy", "Pandas", "Ansible", "Terraform"],
+      technologies: ["Python", "Bash", "Git", "GitHub", "RESTful APIs", "Go", "SQL", "HTML", "CSS", "JavaScript", "Object-Relational Mappers", "SQLAlchemy", "Pandas", "Ansible", "Terraform"],
       achievements: [
         "Completing 300+ hours of rigorous computer science and software engineering training focused on data structures, algorithms, and full-stack web development."
       ]
