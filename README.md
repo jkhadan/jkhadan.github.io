@@ -143,7 +143,3 @@ The website includes:
 - **LinkedIn**: [linkedin.com/in/jameskhadan](https://linkedin.com/in/jameskhadan)
 - **GitHub**: [github.com/jkhadan](https://github.com/jkhadan)
 - **Portfolio**: [jkhadan.github.io](https://jkhadan.github.io)
-
----
-
-Built with ❤️ by James Khadan using Next.js and TypeScript.
