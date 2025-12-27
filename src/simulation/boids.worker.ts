@@ -1,4 +1,4 @@
-import { FishState, SimulationParams } from './types';
+import { FishState, FishType, SimulationParams } from './types';
 import { SpatialGrid } from './spatialGrid';
 import { applyForces } from './forces';
 import { Obstacle } from '../utils/domObstacles';
@@ -27,7 +27,7 @@ let obstacles: Obstacle[] = [];
 let mouse = { x: -1000, y: -1000, active: false };
 let paused = false;
 
-const STRIDE = 6;
+const STRIDE = 7;
 
 function init(config: Partial<SimulationParams>) {
     params = { ...params, ...config };
@@ -53,6 +53,20 @@ function init(config: Partial<SimulationParams>) {
         const jitterX = (Math.random() - 0.5) * cellWidth * 0.8;
         const jitterY = (Math.random() - 0.5) * cellHeight * 0.8;
 
+        const scale = 0.8 + Math.random() * 0.4;
+
+        // Assign fish type based on scale for natural size grouping
+        let fishType: FishType;
+        if (scale < 0.9) {
+            fishType = FishType.SCHOOLING;
+        } else if (scale < 1.0) {
+            fishType = FishType.DART;
+        } else if (scale < 1.1) {
+            fishType = FishType.TROPICAL;
+        } else {
+            fishType = FishType.ANGEL;
+        }
+
         fish.push({
             x: (col + 0.5) * cellWidth + jitterX,
             y: (row + 0.5) * cellHeight + jitterY,
@@ -61,7 +75,8 @@ function init(config: Partial<SimulationParams>) {
             rotation: Math.random() * Math.PI * 2,
             animationPhase: Math.random() * Math.PI * 2,
             hue: Math.random(),
-            scale: 0.8 + Math.random() * 0.4,
+            scale,
+            fishType,
         });
     }
 }
@@ -87,6 +102,7 @@ function tick() {
         outputBuffer[offset + 3] = f.rotation;
         outputBuffer[offset + 4] = f.hue;
         outputBuffer[offset + 5] = f.animationPhase;
+        outputBuffer[offset + 6] = f.fishType;
     }
 
     self.postMessage({ type: 'update', buffer: outputBuffer }, [outputBuffer.buffer] as any);

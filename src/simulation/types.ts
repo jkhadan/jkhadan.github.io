@@ -1,3 +1,10 @@
+export enum FishType {
+    DART = 0,
+    TROPICAL = 1,
+    SCHOOLING = 2,
+    ANGEL = 3,
+}
+
 export interface FishState {
     x: number;
     y: number;
@@ -7,6 +14,7 @@ export interface FishState {
     animationPhase: number;
     hue: number;
     scale: number;
+    fishType: FishType;
 }
 
 export interface SimulationParams {
