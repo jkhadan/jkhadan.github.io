@@ -1,8 +1,8 @@
 import { Application } from 'pixi.js';
 import React, { useEffect, useRef } from 'react';
-import { FishRenderer } from './FishRenderer';
+import { InstancedFishRenderer } from './InstancedFishRenderer';
 import { Environment } from './Environment';
-import { Bubbles } from './Bubbles';
+import { InstancedBubbles } from './InstancedBubbles';
 import { Seaweed } from './Seaweed';
 import { SandyBottom } from './SandyBottom';
 import BoidsWorker from '../simulation/boids.worker?worker';
@@ -19,9 +19,9 @@ export const PixiStage: React.FC = () => {
         if (!containerRef.current) return;
 
         let destroyed = false;
-        let fishRenderer: FishRenderer;
+        let fishRenderer: InstancedFishRenderer;
         let environment: Environment;
-        let bubbles: Bubbles;
+        let bubbles: InstancedBubbles;
         let seaweed: Seaweed;
         let sandyBottom: SandyBottom;
 
@@ -68,12 +68,12 @@ export const PixiStage: React.FC = () => {
             seaweed = new Seaweed(width, height, seaweedCount);
             app.stage.addChild(seaweed);
 
-            // Fish
-            fishRenderer = new FishRenderer(quality.fishCount);
+            // Fish (instanced rendering)
+            fishRenderer = new InstancedFishRenderer(quality.fishCount);
             app.stage.addChild(fishRenderer);
 
-            // Bubbles on top
-            bubbles = new Bubbles(width, height, Math.floor(quality.fishCount / 5));
+            // Bubbles on top (instanced rendering)
+            bubbles = new InstancedBubbles(width, height, Math.floor(quality.fishCount / 5));
             app.stage.addChild(bubbles);
 
             // Initialize web worker
