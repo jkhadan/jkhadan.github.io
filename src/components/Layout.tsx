@@ -1,5 +1,5 @@
 import React from 'react';
-import { PixiStage } from '../rendering/PixiStage';
+import { EcosystemStage } from '../rendering/EcosystemStage';
 import { useReducedMotion } from '../accessibility/ReducedMotion';
 
 interface LayoutProps {
@@ -21,7 +21,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                         backgroundColor: '#0B132B'
                     }} />
                 ) : (
-                    <PixiStage />
+                    <EcosystemStage />
                 )}
             </div>
 

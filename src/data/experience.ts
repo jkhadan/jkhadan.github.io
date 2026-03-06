@@ -19,31 +19,64 @@ export interface Experience {
 export const experiences: Experience[] = [
     {
         id: 1,
-        company: "Integrity Security Services",
-        logo: "/src/assets/images/experiences/iss_logo.png",
-        position: "Software Engineer",
-        period: "January - May 2026",
-        location: "Boston, MA",
-        description: "Technical and interpersonal skills, training, and mentoring to build a strong foundation for a career in software development.",
+        company: "Bank of America",
+        logo: "/src/assets/images/experiences/bofa_logo.png",
+        position: "Software Engineer Intern",
+        period: "June - August 2026",
+        location: "Pennington, NJ",
+        description: "Designing, developing, and maintaining software applications to support banking services and operations, with emphasis on system performance, security, and feature implementation for customer-facing platforms.",
         details: {
             responsibilities: [
-                "Working with a small team of developers to solve engineering problems for IoT security platforms",
-                "Writing specifications and related documentation for software development approval",
-                "Designing and implementing high-quality software solutions utilizing multiple technologies and tools",
-                "Designing and implementing test conditions and tests to address use cases for software validation",
-                "Assisting with quality assurance for product deployment",
-                "Learning and applying symmetric and asymmetric cryptographic concepts and Public Key Infrastructure (PKI)"
+                "Will leverage cutting-edge technology and integrated platforms to enhance customer banking experiences"
             ],
-            technologies: ["JavaScript", "TypeScript", "React", "Node.js", "MongoDB", "AWS", "Docker", "HTML", "CSS", "PKI", "Cryptography"],
+            technologies: [
+                "Java",
+                "Python",
+                "C#",
+                ".NET",
+                "Angular",
+                "React",
+                "JavaScript",
+                "HTML",
+                "CSS",
+                "SQL",
+                "Linux",
+                "JIRA",
+                "Agile"
+            ],
             achievements: [
-                // Since this is an upcoming position, you could either leave this empty or add expected goals like:
-                "Contributing to security solutions protecting over 1 billion IoT devices",
-                "Working on the largest V2X PKI system issuing 17 billion certificates annually"
+                "Selected for competitive Global Technology Analyst Program from a large applicant pool",
+                "Contributing to software solutions that serve millions of Bank of America customers",
+                "Working with the third largest mainframe environment in the world"
             ]
         }
     },
     {
         id: 2,
+        company: "OmniTrust (FKA INTEGRITY Security Services)",
+        logo: "/src/assets/images/experiences/omnitrust_logo.jpg",
+        position: "Software Engineer",
+        period: "January - June 2026",
+        location: "Boston, MA",
+        description: "Building key components of the Device Lifecycle Management (DLM) platform that secures over 2 billion IoT and automotive devices worldwide through enterprise PKI infrastructure and cryptographic services.",
+        details: {
+            responsibilities: [
+                "Developing core components of the DLM platform-as-a-service for secure device provisioning, key management, and certificate lifecycle operations",
+                "Implementing cryptographic services for digital signing, x.509 certificate generation, and secure key distribution across global manufacturing supply chains",
+                "Building backend systems supporting high-availability PKI infrastructure with FIPS 140-2 Level 3 compliance",
+                "Contributing to OTA update delivery systems enabling secure software deployment to millions of connected devices",
+                "Working with enterprise-scale security infrastructure serving Fortune 100 automotive and IoT manufacturers"
+            ],
+            technologies: ["JavaScript", "C", "React", "Node.js", "Linux", "Docker", "Jenkins", "Proxmox", "PKI", "x.509 Certificates", "Cryptography", "RPC", "RESTful APIs"],
+            achievements: [
+                "Contributing to platform infrastructure securing 2+ billion devices across automotive, aerospace, medical, and industrial sectors",
+                "Working on systems that sign and manage over 3 billion software images annually",
+                "Supporting enterprise PKI services deployed across 30+ vehicle assembly plants for major automotive OEMs"
+            ]
+        }
+    },
+    {
+        id: 3,
         company: "Sponsor for Educational Opportunity Program",
         logo: "/src/assets/images/experiences/seo_logo.png",
         position: "Tech Developer",
@@ -64,7 +97,7 @@ export const experiences: Experience[] = [
         }
     },
     {
-        id: 3,
+        id: 4,
         company: "MFS Investment Management",
         logo: "/src/assets/images/experiences/mfs_logo.png",
         position: "Full-Stack Software Engineer",
@@ -92,7 +125,7 @@ export const experiences: Experience[] = [
         }
     },
     {
-        id: 4,
+        id: 5,
         company: "Lastgateway Enterprise",
         logo: "/src/assets/images/experiences/lastgateway_logo.png",
         position: "Founder",
@@ -117,7 +150,7 @@ export const experiences: Experience[] = [
         }
     },
     {
-        id: 5,
+        id: 6,
         company: "AWS Skills Center",
         logo: "/src/assets/images/experiences/aws_logo.jpg",
         position: "AWS Academy Trainee",
@@ -145,7 +178,7 @@ export const experiences: Experience[] = [
         }
     },
     {
-        id: 6,
+        id: 7,
         company: "Polygence",
         logo: "/src/assets/images/experiences/polygence_logo.png",
         position: "AI Research Assistant",

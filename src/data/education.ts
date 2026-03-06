@@ -19,6 +19,12 @@ export const relevantCourses: Course[] = [
         isGraduate: true
     },
     {
+        title: "Web Development",
+        description: "Discusses Web development for sites that are dynamic, data driven, and interactive. Focuses on the software development issues of integrating multiple languages, assorted data technologies, and Web interaction. Considers ASP.NET, C#, HTTP, HTML, CSS, XML, XSLT, JavaScript, AJAX, RSS/Atom, SQL, and Web services. Each student must deploy individually designed Web experiments that illustrate the Web technologies and at least one major integrative Web site project. Students may work in teams with the permission of the instructor. Each student or team must also create extensive documentation of their goals, plans, design decisions, accomplishments, and user guidelines. All source files must be open and be automatically served by a sources server.",
+        skillsLearned: ["JavaScript", "HTML/CSS", "React", "RESTful APIs"],
+        isGraduate: true
+    },
+    {
         title: "Introduction to Databases",
         description: "Studies the design of a database for use in a relational database management system. The entity-relationship model and normalization are used in problems. Relational algebra and then the SQL are presented. Advanced topics include triggers, stored procedures, indexing, elementary query optimization, and fundamentals of concurrency and recovery.",
         skillsLearned: ["SQL", "Database Design", "ER Modeling", "Normalization", "Query Optimization"],
@@ -76,6 +82,12 @@ export const relevantCourses: Course[] = [
         title: "Algorithms and Data",
         description: "Introduces the basic principles and techniques for the design, analysis, and implementation of efficient algorithms and data representations. Discusses asymptotic analysis and formal methods for establishing the correctness of algorithms. Considers divide-and-conquer algorithms, graph traversal algorithms, and optimization techniques. Introduces information theory and covers the fundamental structures for representing data. Examines flat and hierarchical representations, dynamic data representations, and data compression. Concludes with a discussion of the relationship of the topics in this course to complexity theory and the notion of the hardness of problems.",
         skillsLearned: ["Algorithm Design", "Data Structures", "Asymptotic Analysis", "Graph Algorithms", "Data Compression"],
+        isGraduate: false
+    },
+    {
+        title: "Systems Security",
+        description: "Introduces the fundamental principles of designing and implementing secure programs and systems. Presents and analyzes prevalent classes of attacks against systems. Discusses techniques for identifying the presence of vulnerabilities in system design and implementation, preventing the introduction of or successful completion of attacks, limiting the damage incurred by attacks, and strategies for recovering from system compromises. Offers opportunities for hands-on practice of real-world attack and defense in several domains, including systems administration, the Web, and mobile devices. Presents the ethical considerations of security research and practice.",
+        skillsLearned: ["Vulnerability Analysis", "Secure Coding Practices", "Penetration Testing", "Incident Response", "Ethical Hacking"],
         isGraduate: false
     }
 ];
