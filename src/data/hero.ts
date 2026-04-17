@@ -23,7 +23,7 @@ export const heroTagline = {
 export const heroName = "JAMES KHADAN";
 
 export const heroHeadshot = {
-    src: "src/assets/images/misc/Headshot.jpg",
+    src: "/images/misc/Headshot.jpg",
     alt: "James Khadan",
     fallbackInitials: "JK"
 };

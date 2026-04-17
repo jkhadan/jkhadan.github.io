@@ -40,7 +40,7 @@ export const featuredProjects: Project[] = [
                 "24/7 monitoring and support"
             ],
             results: "Successfully reduced server and compute costs by more than half compared to traditional cloud providers while servicing over 5 organizations and maintaining over 30 software resources simultaneously with 99.9% uptime.",
-            gallery: ["/src/assets/images/projects/Lastgateway Enterprise/server.jpg", "/src/assets/images/projects/Lastgateway Enterprise/unraid.png", "/src/assets/images/projects/Lastgateway Enterprise/proxmox.png", "/src/assets/images/projects/Lastgateway Enterprise/truenas.png"]
+            gallery: ["/images/projects/Lastgateway Enterprise/server.jpg", "/images/projects/Lastgateway Enterprise/unraid.png", "/images/projects/Lastgateway Enterprise/proxmox.png", "/images/projects/Lastgateway Enterprise/truenas.png"]
         }
     },
     {
@@ -88,7 +88,7 @@ export const featuredProjects: Project[] = [
                 "Real-time schedule updates"
             ],
             results: "The bot successfully assisted over 2,000 students, handled more than 10,000 queries per day with an 80% accuracy rate, and increased student punctuality by over 30% through its automated reminder system.",
-            gallery: ["/src/assets/images/projects/School Bot 2/messages_1.png", "/src/assets/images/projects/School Bot 2/messages_2.png", "/src/assets/images/projects/School Bot 2/messages_3.png", "/src/assets/images/projects/School Bot 2/messages_4.png"]
+            gallery: ["/images/projects/School Bot 2/messages_1.png", "/images/projects/School Bot 2/messages_2.png", "/images/projects/School Bot 2/messages_3.png", "/images/projects/School Bot 2/messages_4.png"]
         }
     }
 ];

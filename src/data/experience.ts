@@ -20,7 +20,7 @@ export const experiences: Experience[] = [
     {
         id: 1,
         company: "Bank of America",
-        logo: "/src/assets/images/experiences/bofa_logo.png",
+        logo: "/images/experiences/bofa_logo.png",
         position: "Software Engineer Intern",
         period: "June - August 2026",
         location: "Pennington, NJ",
@@ -54,7 +54,7 @@ export const experiences: Experience[] = [
     {
         id: 2,
         company: "OmniTrust (FKA INTEGRITY Security Services)",
-        logo: "/src/assets/images/experiences/omnitrust_logo.jpg",
+        logo: "/images/experiences/omnitrust_logo.jpg",
         position: "Software Engineer",
         period: "January - June 2026",
         location: "Boston, MA",
@@ -78,7 +78,7 @@ export const experiences: Experience[] = [
     {
         id: 3,
         company: "Sponsor for Educational Opportunity Program",
-        logo: "/src/assets/images/experiences/seo_logo.png",
+        logo: "/images/experiences/seo_logo.png",
         position: "Tech Developer",
         period: "June - August 2025",
         location: "New York - Online",
@@ -99,7 +99,7 @@ export const experiences: Experience[] = [
     {
         id: 4,
         company: "MFS Investment Management",
-        logo: "/src/assets/images/experiences/mfs_logo.png",
+        logo: "/images/experiences/mfs_logo.png",
         position: "Full-Stack Software Engineer",
         period: "January - July 2025",
         location: "Boston, MA",
@@ -127,7 +127,7 @@ export const experiences: Experience[] = [
     {
         id: 5,
         company: "Lastgateway Enterprise",
-        logo: "/src/assets/images/experiences/lastgateway_logo.png",
+        logo: "/images/experiences/lastgateway_logo.png",
         position: "Founder",
         period: "January 2019 - January 2025",
         location: "Howell, NJ",
@@ -152,7 +152,7 @@ export const experiences: Experience[] = [
     {
         id: 6,
         company: "AWS Skills Center",
-        logo: "/src/assets/images/experiences/aws_logo.jpg",
+        logo: "/images/experiences/aws_logo.jpg",
         position: "AWS Academy Trainee",
         period: "May - June 2024",
         location: "Seattle, WA",
@@ -180,7 +180,7 @@ export const experiences: Experience[] = [
     {
         id: 7,
         company: "Polygence",
-        logo: "/src/assets/images/experiences/polygence_logo.png",
+        logo: "/images/experiences/polygence_logo.png",
         position: "AI Research Assistant",
         period: "April - August 2021",
         location: "Remote",

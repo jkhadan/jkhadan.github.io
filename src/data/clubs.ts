@@ -22,7 +22,7 @@ export const clubs: Club[] = [
         period: "September 2024 - Present",
         location: "Boston, MA",
         description: "Collaborated with 4 software engineers to develop a website that consolidates reviews and information on the over 200+ global opportunities a part of Northeastern's Global Campus Network. Mentoring new members on the team and helping them learn the ropes of full-stack development.",
-        image: "/src/assets/images/extracirriculars/oasis/oasis_banner.png",
+        image: "/images/extracirriculars/oasis/oasis_banner.png",
         details: {
             activities: [
                 "Collaborated on developing the website architecture",
@@ -36,14 +36,14 @@ export const clubs: Club[] = [
                 "Implemented a user-friendly interface for accessing information on 200+ global opportunities",
                 "Developed effective teamwork and communication skills"
             ],
-            gallery: ["/src/assets/images/extracirriculars/oasis/oasis_headshot.JPEG", 
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_1.jpg",
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_2.jpg",
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_3.jpg",
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_4.jpg",
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_5.jpg",
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_6.jpg",
-                "/src/assets/images/extracirriculars/oasis/oasis_presentation_7.jpg"]
+            gallery: ["/images/extracirriculars/oasis/oasis_headshot.JPEG", 
+                "/images/extracirriculars/oasis/oasis_presentation_1.jpg",
+                "/images/extracirriculars/oasis/oasis_presentation_2.jpg",
+                "/images/extracirriculars/oasis/oasis_presentation_3.jpg",
+                "/images/extracirriculars/oasis/oasis_presentation_4.jpg",
+                "/images/extracirriculars/oasis/oasis_presentation_5.jpg",
+                "/images/extracirriculars/oasis/oasis_presentation_6.jpg",
+                "/images/extracirriculars/oasis/oasis_presentation_7.jpg"]
         }
     },
     {
@@ -52,7 +52,7 @@ export const clubs: Club[] = [
         period: "September 2024 - Present",
         location: "Boston, MA",
         description: "Engaging with over 1500+ other computer science students from underrepresented backgrounds across the ColorStack network to gain a better understanding of how a diverse and inclusive professional environment operates.",
-        image: "/src/assets/images/extracirriculars/colorstack/colorstack_banner.jpg",
+        image: "/images/extracirriculars/colorstack/colorstack_banner.jpg",
         details: {
             activities: [
                 "Participating in diversity and inclusion initiatives",
@@ -66,7 +66,7 @@ export const clubs: Club[] = [
                 "Enhanced understanding of inclusive professional environments",
                 "Contributed to creating a more diverse tech community"
             ],
-            gallery: ["/src/assets/images/extracirriculars/colorstack/colorstack_gallery_1.jpeg"]
+            gallery: ["/images/extracirriculars/colorstack/colorstack_gallery_1.jpeg"]
         }
     }
 ];
