@@ -34,7 +34,7 @@ jobs:
         run: npx tsc
 
       - name: Build
-        run: npx vite build --base /fishweb/
+        run: npx vite build --base /
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
